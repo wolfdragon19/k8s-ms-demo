@@ -1,1 +1,5 @@
-# spring-cloud-k8s-minion
+# k8s-minion
+one-eyed-minion
+two-eyed-minion
+sad-minion
+happy-minion
