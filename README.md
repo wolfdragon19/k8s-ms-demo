@@ -12,6 +12,9 @@ minikube dashboard
 https://www.blazemeter.com/blog/how-to-setup-scalable-jenkins-on-top-of-a-kubernetes-cluster/
 docker build -t wolfdragon19/jenkins-image:1.0 .
 
+Jenkins URL
+10.10.251.187:30886
+
 
 ## kubectl commands
 kubectl cluster-info
@@ -24,11 +27,12 @@ kubectl logs profanity-service-deployment-7d774c9f8c
 kubectl exec -it profanity-service-deployment-7d774c9f8c-6p64q -- nslookup kubernetes
 
 
+docker build -t wolfdragon19/k8s-minion:latest .
 
 
 
-http://10.10.251.187:30489/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/
 
-10.10.251.187:30886
 
-https://10.10.251.187:8443/api/v1/namespaces/kubernetes-dashboard/services/kubernetes-dashboard:/proxy/
+
+
+
