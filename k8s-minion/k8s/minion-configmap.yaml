@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: k8s-minion-config
+  labels:
+    app: k8s-minion
+data:
+  MINION_TYPE: one-eyed-minion
