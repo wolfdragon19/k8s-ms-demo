@@ -19,7 +19,7 @@ spec:
             - 
               name: JAVA_OPTS
               value: "-Djenkins.install.runSetupWizard=false"
-          image: "wolfdragon19/jenkins-image:1.0"
+          image: "wolfdragon19/jenkins-image:latest"
           name: jenkins
           ports: 
             - 
